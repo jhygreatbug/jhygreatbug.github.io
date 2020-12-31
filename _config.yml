@@ -109,22 +109,3 @@ deploy:
   type: 'git'
   repo: https://github.com/jhygreatbug/jhygreatbug.github.io.git
   branch: gh-pages
-
-minivaline:
-  enable: true
-  mversion: latest
-  appId: iJAuI3DTMmiHfzR5Nk5hhzxo-MdYXbMMI # 你的 leancloud application appid
-  appKey: eqjyU0QB4qGmvezoBCYwqUHG # 你的 leancloud application appkey
-  mode: DesertsP # DesertsP 或 xCss 演示 -> https://minivaline.js.org/demo.html
-  # 注意数组在这里面是yaml格式不是json格式，底下是表情数组的例子
-  emoticonUrl:
-    - https://cdn.jsdelivr.net/npm/alus@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/qq@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
-    - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
-  # 更多表情配置细节->https://minivaline.js.org/docs/en/#/Options?id=emoticonurl-string-array
-  lazyload: false
-  cdn: https://cdn.jsdelivr.net/npm/minivaline@latest/dist/MiniValine.min.js
-  # 上面只是个别演示，更多支持的选项 -> https://github.com/MiniValine/hexo-next-minivaline#options
