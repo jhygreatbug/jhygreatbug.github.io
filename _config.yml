@@ -125,6 +125,6 @@ minivaline:
     - https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest
     - https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest
   # 更多表情配置细节->https://minivaline.js.org/docs/en/#/Options?id=emoticonurl-string-array
-  lazyload: true
+  lazyload: false
   cdn: https://cdn.jsdelivr.net/npm/minivaline@latest/dist/MiniValine.min.js
   # 上面只是个别演示，更多支持的选项 -> https://github.com/MiniValine/hexo-next-minivaline#options
